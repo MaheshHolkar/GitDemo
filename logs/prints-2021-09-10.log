@@ -1,0 +1,7 @@
+21:03:39.357 [TestNG-tests-1] INFO  resources.base - Dirver is Initialized
+21:03:39.357 [TestNG-tests-4] INFO  resources.base - Dirver is Initialized
+21:03:40.876 [TestNG-tests-2] INFO  resources.base - Dirver is Initialized
+21:04:15.657 [TestNG-tests-2] INFO  resources.base - Navigated to Home Page
+21:04:15.778 [TestNG-tests-2] INFO  resources.base - Successfully validated Text Message 
+21:04:17.759 [TestNG-tests-4] INFO  resources.base - Navigated to Home Page
+21:04:17.876 [TestNG-tests-4] INFO  resources.base - Navigation bar is displayed

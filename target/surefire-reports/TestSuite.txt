@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 68.5 s <<< FAILURE! - in TestSuite
+Academy.validateTitle.ValidateAppTitle  Time elapsed: 0.119 s  <<< FAILURE!
+java.lang.AssertionError: expected [Featured Courses123] but found [Featured Courses]
+	at Academy.validateTitle.ValidateAppTitle(validateTitle.java:33)
+
+Academy.HomePage.basePageNavigation[nonrestricteduser@gmaj.com, sd2323, Restricted User](1)  Time elapsed: 14.337 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#user_email"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JC5M1H8', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\MH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58d9bb38e31eb0777f7d289f66a2ab01
+*** Element info: {Using=css selector, value=#user_email}
+	at Academy.HomePage.basePageNavigation(HomePage.java:35)
+

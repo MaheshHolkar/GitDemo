@@ -1,0 +1,7 @@
+11:14:44.521 [main] INFO  resources.base - Navigated to Home Page
+11:14:44.699 [main] INFO  resources.base - Navigation bar is displayed
+21:53:01.933 [TestNG-tests-4] INFO  resources.base - Dirver is Initialized
+21:53:02.263 [TestNG-tests-1] INFO  resources.base - Dirver is Initialized
+21:53:02.839 [TestNG-tests-2] INFO  resources.base - Dirver is Initialized
+21:53:30.169 [TestNG-tests-2] INFO  resources.base - Navigated to Home Page
+21:53:30.767 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page

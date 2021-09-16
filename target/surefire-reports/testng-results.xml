@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-15T18:28:01 IST" name="Suite" finished-at="2021-09-15T18:29:04 IST" duration-ms="63504">
+    <groups>
+    </groups>
+    <test started-at="2021-09-15T18:28:01 IST" name="App testing" finished-at="2021-09-15T18:28:01 IST" duration-ms="28">
+    </test> <!-- App testing -->
+    <test started-at="2021-09-15T18:28:01 IST" name="validating Navigation Bar" finished-at="2021-09-15T18:28:33 IST" duration-ms="32293">
+      <class name="Academy.validateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@e6516e]" started-at="2021-09-15T18:28:01 IST" name="initialize" finished-at="2021-09-15T18:28:32 IST" duration-ms="30850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.validateNavigationBar@e6516e]" started-at="2021-09-15T18:28:32 IST" name="basePageNavigation" finished-at="2021-09-15T18:28:32 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@e6516e]" started-at="2021-09-15T18:28:32 IST" name="teardown" finished-at="2021-09-15T18:28:33 IST" duration-ms="1257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateNavigationBar -->
+    </test> <!-- validating Navigation Bar -->
+    <test started-at="2021-09-15T18:28:01 IST" name="Validating Title in the page" finished-at="2021-09-15T18:28:35 IST" duration-ms="34372">
+      <class name="Academy.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateTitle@7a138fc5]" started-at="2021-09-15T18:28:01 IST" name="initialize" finished-at="2021-09-15T18:28:32 IST" duration-ms="30822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="ValidateAppTitle()[pri:0, instance:Academy.validateTitle@7a138fc5]" started-at="2021-09-15T18:28:32 IST" name="ValidateAppTitle" finished-at="2021-09-15T18:28:32 IST" duration-ms="132" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Featured Courses123] but found [Featured Courses]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Featured Courses123] but found [Featured Courses]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Academy.validateTitle.ValidateAppTitle(validateTitle.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAppTitle -->
+        <test-method signature="ValidateHeader()[pri:0, instance:Academy.validateTitle@7a138fc5]" started-at="2021-09-15T18:28:35 IST" name="ValidateHeader" finished-at="2021-09-15T18:28:35 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHeader -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateTitle@7a138fc5]" started-at="2021-09-15T18:28:35 IST" name="teardown" finished-at="2021-09-15T18:28:35 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating Title in the page -->
+    <test started-at="2021-09-15T18:28:01 IST" name="Validating User Logging" finished-at="2021-09-15T18:29:04 IST" duration-ms="63504">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@1950e8a6]" started-at="2021-09-15T18:28:01 IST" name="initialize" finished-at="2021-09-15T18:28:13 IST" duration-ms="12069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@1950e8a6]" started-at="2021-09-15T18:28:13 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-09-15T18:28:49 IST" duration-ms="35871" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmaj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sd2323]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#user_email"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JC5M1H8', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\MH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58d9bb38e31eb0777f7d289f66a2ab01
+*** Element info: {Using=css selector, value=#user_email}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#user_email"}
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-JC5M1H8', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: C:\Users\MH\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:51667}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 58d9bb38e31eb0777f7d289f66a2ab01
+*** Element info: {Using=css selector, value=#user_email}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at pageObjects.LoginPage.getEmail(LoginPage.java:24)
+at Academy.HomePage.basePageNavigation(HomePage.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@1950e8a6]" started-at="2021-09-15T18:28:49 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-09-15T18:29:04 IST" duration-ms="14991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invaliduser@gmaj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sd232df3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UNRestricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePage@1950e8a6]" started-at="2021-09-15T18:29:04 IST" name="teardown" finished-at="2021-09-15T18:29:04 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating User Logging -->
+  </suite> <!-- Suite -->
+</testng-results>

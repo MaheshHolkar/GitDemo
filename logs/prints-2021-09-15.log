@@ -1,0 +1,7 @@
+12:09:26.887 [TestNG-tests-1] INFO  resources.base - UNRestricted User
+18:28:13.459 [TestNG-tests-2] INFO  resources.base - Dirver is Initialized
+18:28:13.515 [TestNG-tests-4] INFO  resources.base - Dirver is Initialized
+18:28:13.521 [TestNG-tests-1] INFO  resources.base - Dirver is Initialized
+18:28:32.275 [TestNG-tests-2] INFO  resources.base - Navigated to Home Page
+18:28:32.302 [TestNG-tests-4] INFO  resources.base - Navigated to Home Page
+18:28:32.468 [TestNG-tests-4] INFO  resources.base - Navigation bar is displayed

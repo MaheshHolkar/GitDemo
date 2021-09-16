@@ -1,0 +1,4 @@
+18:28:33.345 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page
+18:28:35.194 [TestNG-tests-2] INFO  resources.base - Successfully validated Text Message 
+18:28:55.255 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page
+18:29:03.249 [TestNG-tests-1] INFO  resources.base - UNRestricted User

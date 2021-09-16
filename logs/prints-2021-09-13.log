@@ -1,0 +1,7 @@
+12:09:02.109 [TestNG-tests-4] INFO  resources.base - Navigated to Home Page
+12:09:02.109 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page
+12:09:02.296 [TestNG-tests-2] INFO  resources.base - Navigated to Home Page
+12:09:02.682 [TestNG-tests-4] INFO  resources.base - Navigation bar is displayed
+12:09:03.540 [TestNG-tests-2] INFO  resources.base - Successfully validated Text Message 
+12:09:13.410 [TestNG-tests-1] INFO  resources.base - Restricted User
+12:09:22.774 [TestNG-tests-1] INFO  resources.base - Navigated to Home Page
